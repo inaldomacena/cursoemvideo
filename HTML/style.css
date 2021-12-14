@@ -1,0 +1,21 @@
+#charset "UTF-8";
+
+        body{
+            background-color: darkorange;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            text-align: center; 
+            color:  darkgreen;
+            background-color: goldenrod;
+        }
+        h2{
+            text-align: center; 
+            color:fuchsia;
+            background-color: ghostwhite;
+        }
+        p{
+            text-align: justify;
+        }
+    
