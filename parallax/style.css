@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #000;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    display:  block;
+    background-color: rgb(245, 241, 241);
+}
+.container{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section.modulo.parallax{
+margin-bottom: 40px;
+}
+section.modulo.last-child{
+    margin-bottom: 0;
+}
+section.modulo h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+ section.modulo.content{
+     padding: 40px 0;
+     background-color: #e4f0e9;
+ }
+ section.modulo.parallax{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     background-color: 50% 50%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     
+ }
+ section.modulo p{
+     margin-bottom: 40px;
+     color: #000;
+ }
+ section.modulo.parallax-1{
+     background-image: url("unsplash.jpg")
+     }
+section.modulo.parallax-2{
+    background-image:url("parallax.png") ;
+}
+section.modulo.parallax-3{
+    background-image: url("arquitetura.jpg");
+    
+}
+section.modulo.parallax h1{
+            text-align: center;
+            font-size: 70px;
+            color: tomato;
+            z-index: 50;
+}
+section.modulo.parallax h2{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(1, 7, 6);
+    z-index: 50;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
