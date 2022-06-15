@@ -3,8 +3,8 @@ body{
     padding: 0;
     color: #242424;
     font-family: sans-serif;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+  /* word-wrap: break-word;
+    overflow-wrap: break-word; */
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -57,10 +57,10 @@ section.modulo h2{
      color: #000;
  }
  section.modulo.parallax-1{
-     background-image: url("unsplash.jpg")
+     background-image: url("jean.jpg")
      }
 section.modulo.parallax-2{
-    background-image:url("jean.jpg") ;
+    background-image:url("unsplash.jpg") ;
 }
 section.modulo.parallax-3{
     background-image: url("arquitetura.jpg");
