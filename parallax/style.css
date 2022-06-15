@@ -1,9 +1,11 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 body{
     margin: 0;
     padding: 0;
     color: #242424;
-    font-family: sans-serif;
-  /* word-wrap: break-word;
+    /*font-family: sans-serif;
+   word-wrap: break-word;
     overflow-wrap: break-word; */
 }
 
