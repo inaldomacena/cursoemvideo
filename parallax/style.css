@@ -1,88 +1,60 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-body{
-    margin: 0;
+*{
     padding: 0;
-    color: #242424;
-    /*font-family: sans-serif;
-   word-wrap: break-word;
-    overflow-wrap: break-word; */
+    margin:0;
+}
+section{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 40px 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:black;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-color:#f0eed2 ;
+
+}
+h1{
+    margin-bottom: 20px;
+   /* font-weight:*/;
+  
+}
+section p{
+    text-align:justify ;
+    font-style:italic;
+
+
+}
+section:nth-of-type(1){
+   background-image: url("leandra.jpg");
+   justify-content: center;
+   height: 50vh;
+   width:100%;
+   color: #fff;
+   text-align: center;
+   font-size: 78px;  
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight: 900;
-    color: #000;
-}
-.wrapper{
-    width: 100%;
-    margin: 0 auto;
-}
-main{
-    display:  block;
-    background-color: rgb(245, 241, 241);
-}
-.container{
-    width: 100%;
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-section.modulo.parallax{
-margin-bottom: 40px;
-}
-section.modulo.last-child{
-    margin-bottom: 0;
-}
-section.modulo h2{
-    margin-bottom: 40px;
-    font-size: 30px;
-}
- section.modulo.content{
-     padding: 40px 0;
-     background-color: #e4f0e9;
- }
- section.modulo.parallax{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     width: 100%;
-     position: relative;
-     overflow: hidden;
-     background-color: 50% 50%;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     
- }
- section.modulo p{
-     margin-bottom: 40px;
-     color: #000;
- }
- section.modulo.parallax-1{
-     background-image: url("jean.jpg")
-     }
-section.modulo.parallax-2{
-    background-image:url("unsplash.jpg") ;
-}
-section.modulo.parallax-3{
-    background-image: url("arquitetura.jpg");
+section:nth-of-type(3){
+    background-image: url("unsplash.jpg");
     
-}
-section.modulo.parallax h1{
-            text-align: center;
-            font-size: 70px;
-            color: tomato;
-            z-index: 50;
-}
-section.modulo.parallax h2{
-    text-align: center;
-    font-size: 70px;
-    color: rgb(1, 7, 6);
-    z-index: 50;
-}
-footer{
+ }
+ section:nth-of-type(5){
+    background-image: url("jean.jpg");
+ }
+ section:nth-of-type(7){
+    background-image: url("parallax.png");
+ }
+ footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
-}
+   }
+   a{
+       color:palegreen;
+   }
