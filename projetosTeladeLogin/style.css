@@ -3,7 +3,9 @@
 .{
     margin:0;
     padding:0;
-    font-family: 'Arial'; sans-Serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
   }
   body{
     background-repeat: no-repeat;
@@ -29,6 +31,8 @@
     margin-bottom: 40px;
     color: #272262;
     font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
   } 
   
   .label-float input{
@@ -51,7 +55,7 @@
     margin-bottom: 5%;
   }
   .label-float input: focus{
-     border-bottom: 2px solid #4038a0
+     border-bottom: 2px solid #4038a0;
   }
 
   .label-float label{
@@ -59,6 +63,9 @@
     pointer-events: none;
     position:relative;
     transition: all.3s ease-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  
   }
 
   .label-float input: focus + label{
