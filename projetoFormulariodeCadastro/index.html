@@ -1,0 +1,93 @@
+<html>
+    <html lang="pt-BR"></html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    
+    <div class  = 'container'>
+    <div class='card'>
+      <h1> Formulário</h1>
+      <div class='label-float'>
+        <label for = 'nome'>Nome</label>  
+        <input type = 'text' id='nome' placeholder = '' required>
+        </div>
+        <div class = 'label-float'>
+         <label for = 'telefone'>Telefone</label>   
+         <input type='tel' name="telefone" id='telefone' placeholder = '' required>
+         </div>
+         
+         <div class = 'label-float-radio' >
+         <p>Sexo</p>    
+        <input type='radio' name="genero" id="feminino" value='feminino' placeholder = '' required>
+        <label for = 'sexo'>Feminino</label>   
+        <input type='radio' name="genero" id="masculino" value='masculino' placeholder = '' required>
+        <label for = 'sexo'>Masculino</label>
+         </div>
+         <br>
+        <hr>
+        <div class = 'label-float'>
+        <label for = "email">Email</label>
+        <input type = "email"  id ="email" placeholder="">
+        </div>
+        <div class='label-float'>
+        <label for = 'senha'>Senha</label>
+        <input type = 'password' id='senha' placeholder = '' required>
+         </div>
+        <div class='label-float'>
+        <label for = 'confirmasenha'>Confirmar Senha</label>
+        <input type = 'password' id='confirmarsenha' placeholder = '' required>
+         </div>
+        <div class = 'label-float-checkbox'>
+            <input type="checkbox" onclick='mostrarsenha()'  placeholder=""required>   
+        <label for = 'mostrarSenha'> Mostrar senha</label>
+        
+         <hr>
+         <br>
+        </div>
+        <div class='label-input'>
+            <label> 1-De qual lado da aplicação você desenvolve? <br> </label>
+             <br>
+            <input type = 'radio' id='devWeb' value="frontend" placeholder="" required>
+            <label for = 'frontend'> Frontend </label>
+                
+                
+            <input type = 'radio' id='devWeb' value="backend" placeholder="" required> 
+            <label for = 'backend'> Backend</label>  
+                
+            <input type = 'radio' id='devWeb' value="backend" placeholder="" required>
+            <label for = 'fullstack'> Fullstack </label>    
+       </div>
+       <br>
+       <div class='label-input-textarea'>
+           <label for="duvidas">Dúvidas?</label><br>
+        <label> <textarea name= "mensagem"rows="10" cols="40" maxlength="500">Digite sua mensagem</textarea> <br> </label>
+    </div>
+            
+             
+    
+    
+
+
+
+
+
+        
+      
+      
+      <div>
+        <button>Cadastrar</button>
+        
+        <hr>
+        
+        </div>
+
+    </body>
+    <script type="text/javascript" src = "script.js"></script>
+  </body>
+</html>

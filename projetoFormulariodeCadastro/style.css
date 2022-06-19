@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+.{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+  }
+  body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-image: url("nature.jpg");
+  }
+  .container{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    
+  }
+  .card{
+  background-color: #ffffff80;
+  padding:30px;
+  border-radius:4%;
+  box-shadow:  3px 3px 1px 0px #000060;
+  width: 400px;
+  
+  } 
+  h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #272262;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  } 
+  
+  .label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 0;
+    border-bottom:  2px solid;
+    background-color: transparent;
+    outline:none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all;
+  }
+  .label-float input{
+    position:relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .label-float input:focus {
+     border-bottom: 2px solid #4038a0;
+  }
+
+  .label-float label{
+    color: #272262;
+    pointer-events: none;
+    position:relative;
+    transition: all.3s ease-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  
+  }
+
+  .label-float input: focus + label{
+    font-size:13px;
+    margin-top: 0;
+  }
+
+  button{
+    background-color: transparent;
+    padding: 7px;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  button:hover{
+    background-color:#fff
+  }
+  .justify-center{
+      display: flex;
+      justify-content: center;
+  }
+  
+
+  p{
+    text-align: justify;
+    margin-bottom: 1px;
+    color: #272262;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  }
+  .label-input{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #272262;
+    text-align: justify;
+    margin-bottom: 1px;
+  }
+  .label-float-checkbox{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #272262;
+    text-align: left;
+    margin-bottom: 1px;
+  }
+  .label-float-radio{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #272262;
+    text-align: left;
+    margin-bottom: 1px;
+  }
+  .label-input-textarea{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #272262;
+    text-align: justify;
+    margin-bottom: 1px;
+    
+  }
+  
+  
+  
+  
