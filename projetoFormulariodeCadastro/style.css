@@ -93,6 +93,10 @@
       justify-content: center;
   }
   
+  .label-float input: :focus + label,
+  .label-float input: :valid + label{
+    font-size:13px;
+  }
 
   p{
     text-align: justify;
@@ -110,32 +114,17 @@
     text-align: justify;
     margin-bottom: 1px;
   }
-  .label-float-checkbox{
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    color: #272262;
-    text-align: left;
-    margin-bottom: 1px;
-  }
-  .label-float-radio{
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    color: #272262;
-    text-align: left;
-    margin-bottom: 1px;
-  }
+  .label-float-checkbox,
+  .label-float-radio,
   .label-input-textarea{
+  
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     color: #272262;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1px;
-    
   }
-  
   
   
   
