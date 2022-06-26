@@ -7,10 +7,12 @@
      margin: 0;
      font-family:cursive;
      font-size: 20px;
+     color:#020f05e5;
+     line-height:1.6;
 
  }
- .mostruario{
-     background-image:url('setas.png');
+ #mostruario{
+     background-image:url('pandelache.jpg');
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -23,17 +25,21 @@
  }
  .h1{
      font-size: 50px;
-     line-height: 1.2;
+     line-height: 1.5;
      text-align: center;
  }
  .p{
      font-size: 20px;
      
+     
+    
+     
  }
  .button{
     font-size:18px;
     text-decoration:none;
-    color:#1bca78;
+    color:#000000;
+    background-color: rgb(6, 180, 29);
     border:#1bca78 1px solid;
     padding:10px 20px;
     border-radius:10px;
@@ -46,7 +52,7 @@
  }
  #A{
     padding:20px;
-    background:#39927c;
+    background: rgb(6,180,29);
     color:#fff;
     text-align:center;
  }
@@ -62,9 +68,20 @@
      padding: 20px;
  }
  #C .box-1, #C .box-3{
-    background:#92396d;
-    color:#fff;
+    background:rgb(6,180,29);
+    color:rgba(250, 246, 244, 0.842);
  }
  #C .box-2{
     background:#f9f9f9;
+ }
+
+ footer{
+    background-color: #000000;
+   color:  #fff;
+    text-align: center;
+    padding: 10px;
+   }
+   a{
+       color: palegreen;
+   }
  }
