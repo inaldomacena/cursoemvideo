@@ -10,7 +10,7 @@
 
  }
  .mostruario{
-     background-image:url("setas.png");
+     background-image:url('setas.png');
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -28,6 +28,7 @@
  }
  .p{
      font-size: 20px;
+     
  }
  .button{
     font-size:18px;
