@@ -38,6 +38,8 @@ section#login{
      width: 250px ;
      height: 500px;
      border-radius: 20px;
+     transition:  width 1s, height 1s;
+     transition-timing-function: ease;
 }
 
 section#login > div#imagem {
